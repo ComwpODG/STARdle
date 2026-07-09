@@ -122,7 +122,7 @@
   table{
     width:100%;
     border-collapse:collapse;
-    min-width:640px;
+    min-width:720px;
   }
   thead th{
     font-family:'Chakra Petch',sans-serif;
@@ -187,6 +187,25 @@
     font-size:15px;
   }
 
+  #copyBtn{
+    display:none;
+    margin:14px auto 0;
+    background:transparent;
+    color:var(--accent);
+    border:1px solid var(--accent-dim);
+    font-family:'Chakra Petch',sans-serif;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    font-size:13px;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:filter .15s, transform .1s, border-color .15s;
+  }
+  #copyBtn:hover{border-color:var(--accent); filter:brightness(1.15);}
+  #copyBtn:active{transform:scale(.97);}
+
   #confettiCanvas{
     position:fixed;
     inset:0;
@@ -247,6 +266,7 @@
             <th>Faction</th>
             <th>Color</th>
             <th>Rank</th>
+            <th>Tier</th>
           </tr>
         </thead>
         <tbody id="guessRows"></tbody>
@@ -255,6 +275,7 @@
     </div>
 
     <div id="winBanner"></div>
+    <button id="copyBtn" type="button">Copy Results</button>
   </div>
 
   <footer>New ship every day, at midnight Pacific Standard Time.. Ship data loaded from ships.json.</footer>

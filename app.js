@@ -35,6 +35,7 @@ const rowsBody = document.getElementById('guessRows');
 const emptyState = document.getElementById('emptyState');
 const guessCountEl = document.getElementById('guessCount');
 const winBanner = document.getElementById('winBanner');
+const copyBtn = document.getElementById('copyBtn');
 const dayLabel = document.getElementById('dayLabel');
 const datalist = document.getElementById('shipList');
 
@@ -70,6 +71,13 @@ async function init(){
 
   SHIPS = data.shipDetails.slice().sort((a,b) => a.name.localeCompare(b.name));
   COLOR_ORDER = Array.isArray(data.allColors) ? data.allColors : [];
+
+  // Derived column: Tier = ceil(rank / 3), capped at 5 (rank 13+ is Tier 5).
+  // Computed here so ships.json itself never needs to change.
+  for (const ship of SHIPS){
+    ship.tier = Math.min(5, Math.ceil(ship.rank / 3));
+  }
+
   byNameLower = new Map(SHIPS.map(s => [s.name.toLowerCase(), s]));
 
   for (const ship of SHIPS){
@@ -83,6 +91,19 @@ async function init(){
   const STORAGE_KEY = `stardle:${pacificDateString()}`;
   state = loadState(STORAGE_KEY);
   state._storageKey = STORAGE_KEY;
+
+  // Guard against stale/corrupt state: if storage says we won today but the
+  // last recorded guess isn't actually today's secret ship, something is
+  // inconsistent (e.g. secret ship changed under the same key). Hard reset
+  // rather than trusting a "won" flag we can't back up.
+  if (state.won){
+    const lastGuess = state.guesses[state.guesses.length - 1];
+    const lastShip = lastGuess ? byNameLower.get(lastGuess.toLowerCase()) : null;
+    if (!lastShip || lastShip.name !== SECRET.name){
+      state = { guesses: [], won: false, _storageKey: STORAGE_KEY };
+      saveState();
+    }
+  }
 
   // Rehydrate any guesses made earlier today
   for (const name of state.guesses){
@@ -102,6 +123,10 @@ async function init(){
     e.preventDefault();
     submitGuess(input.value);
   });
+
+  if (copyBtn){
+    copyBtn.addEventListener('click', copyResults);
+  }
 }
 
 /* ---------------------------------------------------------------------
@@ -150,6 +175,7 @@ function renderRow(ship){
   tr.appendChild(compareCell(ship.faction, SECRET.faction));
   tr.appendChild(compareCell(ship.color, SECRET.color, orderedArrow(ship.color, SECRET.color, COLOR_ORDER)));
   tr.appendChild(compareCell(ship.rank, SECRET.rank, rankArrow(ship.rank, SECRET.rank)));
+  tr.appendChild(compareCell(ship.tier, SECRET.tier, tierArrow(ship.tier, SECRET.tier)));
 
   rowsBody.appendChild(tr);
 }
@@ -179,7 +205,16 @@ function compareCell(value, secretValue, arrow){
 
 function rankArrow(guessRank, secretRank){
   if (guessRank === secretRank) return '';
+  if (guessRank-3 > secretRank) return '▼▼';
+  if (guessRank+3 < secretRank) return '▲▲';
   return guessRank < secretRank ? '▲' : '▼';
+}
+
+function tierArrow(guessTier, secretTier){
+  if (guessTier === secretTier) return '';
+  const diff = Math.abs(guessTier - secretTier);
+  const arrow = guessTier < secretTier ? '▲' : '▼';
+  return diff >= 2 ? arrow + arrow : arrow;
 }
 
 // Generic ordered-list hint, used for Color (and reusable for anything
@@ -202,8 +237,44 @@ function endGame(won, replay = false){
   if (won){
     winBanner.style.display = 'block';
     winBanner.textContent = `✓ Correct! Today's ship was the ${SECRET.name}.`;
+    if (copyBtn) copyBtn.style.display = 'table';
     if (!replay) fireConfetti();
   }
+}
+
+/* ---------------------------------------------------------------------
+   Share / copy-to-clipboard
+   --------------------------------------------------------------------- */
+function buildShareText(){
+  const link = window.location.href.split('#')[0].split('?')[0];
+  const lines = [`STARdle Completed in ${state.guesses.length} scans! ${dayLabel.textContent} ${link}`];
+
+  for (const name of state.guesses){
+    const ship = byNameLower.get(name.toLowerCase());
+    if (!ship) continue;
+    const squares = [
+      ship.class === SECRET.class,
+      ship.role === SECRET.role,
+      ship.faction === SECRET.faction,
+      ship.color === SECRET.color,
+      ship.rank === SECRET.rank,
+      ship.tier === SECRET.tier,
+    ].map(correct => correct ? '🟩' : '🟥').join('');
+    lines.push(squares);
+  }
+
+  return lines.join('\n');
+}
+
+async function copyResults(){
+  const text = buildShareText();
+  try {
+    await navigator.clipboard.writeText(text);
+    copyBtn.textContent = 'Copied!';
+  } catch {
+    copyBtn.textContent = "Couldn't copy";
+  }
+  setTimeout(() => { copyBtn.textContent = 'Copy Results'; }, 1800);
 }
 
 /* ---------------------------------------------------------------------
