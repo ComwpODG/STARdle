@@ -1,536 +1,2515 @@
 {
-	"allColors":["Silver(Credits)","Purple(Crafted)","Green(Alien)","Gold(Premium)"],
-	"allClasses":["Interceptor","Fighter","Frigate","Destroyer"],
-	"allRoles":["Recon","ECM","Covert Operations","Tackler","Command","Gunship","Long Range","Engineer","Guard","Suppressor"],
-	"allFactions":["Empire","Jericho","Federation","Ellydium","Unique"],
-	"shipDetails":[
-		{
-			"name":"Hercules",
-			"faction":"Empire",
-			"class":"Fighter",
-			"role":"Gunship",
-			"color":"Silver(Credits)",
-			"rank":1
-		},
-		{
-			"name":"Harpy",
-			"faction":"Empire",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Silver(Credits)",
-			"rank":2
-		},
-		{
-			"name":"Dvergr",
-			"faction":"Empire",
-			"class":"Interceptor",
-			"role":"Recon",
-			"color":"Silver(Credits)",
-			"rank":2
-		},
-		{
-			"name":"Dvergr 2",
-			"faction":"Empire",
-			"class":"Interceptor",
-			"role":"Recon",
-			"color":"Silver(Credits)",
-			"rank":3
-		},
-		{
-			"name":"Hercules Rage",
-			"faction":"Empire",
-			"class":"Fighter",
-			"role":"Gunship",
-			"color":"Silver(Credits)",
-			"rank":3
-		},
-		{
-			"name":"Siegfried",
-			"faction":"Empire",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Gold(Premium)",
-			"rank":3
-		},
-		{
-			"name":"Dainsleif",
-			"faction":"Empire",
-			"class":"Fighter",
-			"role":"Gunship",
-			"color":"Gold(Premium)",
-			"rank":3
-		},
-		{
-			"name":"King Dvergr",
-			"faction":"Empire",
-			"class":"Interceptor",
-			"role":"Recon",
-			"color":"Gold(Premium)",
-			"rank":3
-		},
-		{
-			"name":"Dvergr Knight",
-			"faction":"Empire",
-			"class":"Interceptor",
-			"role":"Recon",
-			"color":"Silver(Credits)",
-			"rank":4
-		},
-		{
-			"name":"Hercules Arrow",
-			"faction":"Empire",
-			"class":"Fighter",
-			"role":"Command",
-			"color":"Silver(Credits)",
-			"rank":4
-		},
-		{
-			"name":"Iron Harpy",
-			"faction":"Empire",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Silver(Credits)",
-			"rank":4
-		},
-		{
-			"name":"Neutron",
-			"faction":"Empire",
-			"class":"Interceptor",
-			"role":"ECM",
-			"color":"Silver(Credits)",
-			"rank":5
-		},
+	"allColors": [
+		"Silver(Credits)",
+		"Purple(Crafted)",
+		"Green(Alien)",
+		"Gold(Premium)"
+	],
+	"allClasses": [
+		"Interceptor",
+		"Fighter",
+		"Frigate",
+		"Destroyer"
+	],
+	"allRoles": [
+		"Recon",
+		"ECM",
+		"Covert Operations",
+		"Tackler",
+		"Command",
+		"Gunship",
+		"Long Range",
+		"Engineer",
+		"Guard",
+		"Suppressor"
+	],
+	"allFactions": [
+		"Empire",
+		"Jericho",
+		"Federation",
+		"Ellydium",
+		"Unique"
+	],
+	"shipDetails": [
+		{
+			"name": "Hercules",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 1
+		},
+		{
+			"name": "Harpy",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 2
+		},
+		{
+			"name": "Dvergr",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 2
+		},
+		{
+			"name": "Dvergr 2",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 3
+		},
+		{
+			"name": "Hercules Rage",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 3
+		},
+		{
+			"name": "Siegfried",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 3
+		},
+		{
+			"name": "Dainsleif",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 3
+		},
+		{
+			"name": "King Dvergr",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 3
+		},
+		{
+			"name": "Dvergr Knight",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Hercules Arrow",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Iron Harpy",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Neutron",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 5
+		},
+		{
+			"name": "Deimos",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 5
+		},
+		{
+			"name": "Steel Harpy",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 5
+		},
+		{
+			"name": "Ghost",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 5
+		},
+		{
+			"name": "Dwarf 2",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Deimos 2",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Hydra",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Hydra 2",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Scout",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Kalah",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Trooper",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Lynx",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 1
+		},
+		{
+			"name": "Raptor",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 2
+		},
+		{
+			"name": "Swift",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 3
+		},
+		{
+			"name": "Lynx-M",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 3
+		},
+		{
+			"name": "Raptor-M",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 3
+		},
+		{
+			"name": "Raptor-M-2",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 3
+		},
+		{
+			"name": "Tiger-M15A3",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 3
+		},
+		{
+			"name": "Pterosaur",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 3
+		},
+		{
+			"name": "Swift-M",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Lynx Mk II",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Raptor Mk II",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Fox",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 5
+		},
+		{
+			"name": "Alligator-C",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 5
+		},
+		{
+			"name": "Kite-E",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 5
+		},
+		{
+			"name": "Hawk",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Swift Mk 3",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Fox-M",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Alligator-M",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Honor",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Rhi-no",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Blade of Aressa",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Superkite",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Axe",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 1
+		},
+		{
+			"name": "Zealot",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 2
+		},
+		{
+			"name": "Axe-X-S",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 2
+		},
+		{
+			"name": "Dagger",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 3
+		},
+		{
+			"name": "Axe-X",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 3
+		},
+		{
+			"name": "Exorcist",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 3
+		},
+		{
+			"name": "Black Hort",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 3
+		},
+		{
+			"name": "Black Death",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Gold(Premium)",
+			"rank": 3
+		},
+		{
+			"name": "Palom Mk II",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Purple(Crafted)",
+			"rank": 3
+		},
+		{
+			"name": "Dagger AE",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Machete",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Zealot AE",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 4
+		},
+		{
+			"name": "Dagger V",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 5
+		},
+		{
+			"name": "Machete AE",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 5
+		},
+		{
+			"name": "Neuron Zealot",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 5
+		},
+		{
+			"name": "Stiletto",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Machete S",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Templar",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 6
+		},
+		{
+			"name": "Priest Bartle",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Crus Q",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Neuron",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Talon",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Gold(Premium)",
+			"rank": 6
+		},
+		{
+			"name": "Diamond Dwarf",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 7
+		},
+		{
+			"name": "Swarm",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
+		{
+			"name": "Nibelung",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "King Nibelung",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 12
+		},
+		{
+			"name": "Viking",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 13
+		},
+		{
+			"name": "Jarl",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 15
+		},
+		{
+			"name": "Berserker",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Wasp",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 13
+		},
+		{
+			"name": "Leonina",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Deimon",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Hawk-Eye",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 7
+		},
+		{
+			"name": "Black Bomber",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Swift Eagle",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Spectre Falcon",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Silver(Credits)",
+			"rank": 14
+		},
+		{
+			"name": "Sai",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 17
+		},
+		{
+			"name": "Thunderbird GS",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 10
+		},
+		{
+			"name": "Nightingale",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 8
+		},
+		{
+			"name": "Nordstorm",
+			"faction": "Unique",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Gold(Premium)",
+			"rank": 16
+		},
+		{
+			"name": "Hawk-M",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
+		{
+			"name": "Kite",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Kite-M",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Eagle",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Eagle-M",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 12
+		},
+		{
+			"name": "Grey Falcon",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 13
+		},
+		{
+			"name": "Falcon-M",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 15
+		},
+		{
+			"name": "Golden Eagle",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Konkistador",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Eagle-B",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Jellyfish",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 8
+		},
+		{
+			"name": "Nyx",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Glaive GS",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 10
+		},
+		{
+			"name": "Cutter",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Plague Doctor",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Gold(Premium)",
+			"rank": 13
+		},
+		{
+			"name": "Ricasso",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
+		{
+			"name": "Kris S",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Nodachi A",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Wakizashi R",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Silver(Credits)",
+			"rank": 14
+		},
+		{
+			"name": "Ace",
+			"faction": "Unique",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Black Swarm",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Magnetar",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Tempest",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Storm Viking",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 14
+		},
+		{
+			"name": "Grim",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Gold(Premium)",
+			"rank": 14
+		},
+		{
+			"name": "Nebula GS",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Gold(Premium)",
+			"rank": 10
+		},
+		{
+			"name": "Spirit",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Kevlar Ha",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Karud",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Wakizashi AE",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 15
+		},
+		{
+			"name": "Wakizashi",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 13
+		},
+		{
+			"name": "Nodachi EW",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 12
+		},
+		{
+			"name": "Nodachi",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Kris AE",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Kris",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
+		{
+			"name": "Stiletto AE",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Silver(Credits)",
+			"rank": 7
+		},
+		{
+			"name": "Cinquedea",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Zhen",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Pilum",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Kusarigama",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Caltrop",
+			"faction": "Jericho",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Marten",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Spike",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Peregrine",
+			"faction": "Federation",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Cyning",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Seeress",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Psiloi",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Dyrnwyn",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Cor Vulnus",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Cor Legibus",
+			"faction": "Empire",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Salyut-ST",
+			"faction": "Unique",
+			"class": "Interceptor",
+			"role": "ECM",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Phobos",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 7
+		},
+		{
+			"name": "Achilles",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Prometheus Fire",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Castor",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Argonaut",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 12
+		},
+		{
+			"name": "Apollo",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 13
+		},
+		{
+			"name": "Lightbringer",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 15
+		},
+		{
+			"name": "Mjolnir",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Typhon",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Thor",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 16
+		},
+		{
+			"name": "Spark",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Orelus",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Pollux GS",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 10
+		},
+		{
+			"name": "Nukem I",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Desert Eagle",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Veils",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 8
+		},
+		{
+			"name": "Prometheus",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
+		{
+			"name": "Prometheus X",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Spartacus",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Aura",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 14
+		},
+		{
+			"name": "Granite",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Hadrian",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Shark",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Loki",
+			"faction": "Empire",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Acid Hydra",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 7
+		},
+		{
+			"name": "Cerberus",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
+		{
+			"name": "Centaur",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Chiron",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 12
+		},
+		{
+			"name": "Dragon",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 13
+		},
+		{
+			"name": "Archdragon",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 15
+		},
+		{
+			"name": "Kraken",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Gungnir",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Project 1011",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Scylla",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Naga",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 14
+		},
+		{
+			"name": "Minotaur",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Garm",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Styx",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Invincible",
+			"faction": "Empire",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 8
+		},
+		{
+			"name": "Brave",
+			"faction": "Empire",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 11
+		},
+		{
+			"name": "Vigilant",
+			"faction": "Empire",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 14
+		},
+		{
+			"name": "Emperor",
+			"faction": "Empire",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Sigurdr",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Pegasus GS",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 10
+		},
+		{
+			"name": "Atlas",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Black Dragon",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Gargoyle",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 11
+		},
+		{
+			"name": "Brokk",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 13
+		},
+		{
+			"name": "Phoenix",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Thrasher",
+			"faction": "Empire",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 17
+		},
+		{
+			"name": "Silent Fox",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 7
+		},
+		{
+			"name": "Hyena",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Wolf Mk II",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Tiger",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Tiger II",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 12
+		},
+		{
+			"name": "Lion",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 13
+		},
+		{
+			"name": "Lion Mk II",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 15
+		},
+		{
+			"name": "Jaguar",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Persei-8",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Irbis",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Manul",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Wolfhound",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Piranha-B2",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 14
+		},
+		{
+			"name": "Tiger-M",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Wolf-M",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Wolf",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
+		{
+			"name": "Alligator Mk II",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 7
+		},
+		{
+			"name": "Anaconda",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
+		{
+			"name": "Grizzly",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Grizzly-M",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 12
+		},
+		{
+			"name": "Osprey",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 13
+		},
+		{
+			"name": "T-Rex",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Silver(Credits)",
+			"rank": 15
+		},
+		{
+			"name": "Octopus",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Mole",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Hammerhead",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Shrike",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Raven",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "T-Rex Mk II",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 14
+		},
+		{
+			"name": "Grizzly Mk II",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Anaconda Mk II",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Anaconda-M",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Procyon",
+			"faction": "Federation",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 8
+		},
+		{
+			"name": "Antares",
+			"faction": "Federation",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 11
+		},
+		{
+			"name": "Sirius",
+			"faction": "Federation",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 14
+		},
+		{
+			"name": "Albireo",
+			"faction": "Federation",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 17
+		},
+		{
+			"name": "Archelon",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 7
+		},
+		{
+			"name": "Valor",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Cave Bear GS",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 10
+		},
+		{
+			"name": "Polar Bear",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 11
+		},
+		{
+			"name": "Polus",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Mammoth",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Reaper",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 16
+		},
+		{
+			"name": "Boremys",
+			"faction": "Federation",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 17
+		},
+		{
+			"name": "Parallax",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 9
+		},
+		{
+			"name": "Nimravus GS",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 10
+		},
+		{
+			"name": "Panther",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 12
+		},
+		{
+			"name": "Stingray",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 13
+		},
+		{
+			"name": "Joker",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Rockwell",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 15
+		},
+		{
+			"name": "Bear",
+			"faction": "Federation",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 16
+		},
+		{
+			"name": "Katana",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 7
+		},
+		{
+			"name": "Katana S",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 9
+		},
+		{
+			"name": "Lance S",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 12
+		},
+		{
+			"name": "Sword",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 13
+		},
+		{
+			"name": "Sword S",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Silver(Credits)",
+			"rank": 15
+		},
+		{
+			"name": "Sword AE",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 14
+		},
+		{
+			"name": "Lance Bartle",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 11
+		},
+		{
+			"name": "Lance",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 10
+		},
+		{
+			"name": "Katana AE",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Silver(Credits)",
+			"rank": 8
+		},
 		{
-			"name":"Deimos",
-			"faction":"Empire",
-			"class":"Fighter",
-			"role":"Gunship",
-			"color":"Silver(Credits)",
-			"rank":5
+			"name": "Saw One",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Purple(Crafted)",
+			"rank": 15
 		},
 		{
-			"name":"Steel Harpy",
-			"faction":"Empire",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Silver(Credits)",
-			"rank":5
+			"name": "Pilgrim",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Purple(Crafted)",
+			"rank": 16
 		},
 		{
-			"name":"Ghost",
-			"faction":"Empire",
-			"class":"Fighter",
-			"role":"Gunship",
-			"color":"Gold(Premium)",
-			"rank":5
+			"name": "Kirishima",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Purple(Crafted)",
+			"rank": 17
 		},
 		{
-			"name":"Dwarf 2",
-			"faction":"Empire",
-			"class":"Interceptor",
-			"role":"Recon",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Baphomet",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Purple(Crafted)",
+			"rank": 17
 		},
 		{
-			"name":"Deimos 2",
-			"faction":"Empire",
-			"class":"Fighter",
-			"role":"Gunship",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Singularity",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Purple(Crafted)",
+			"rank": 16
 		},
 		{
-			"name":"Hydra",
-			"faction":"Empire",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Strong",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 9
 		},
 		{
-			"name":"Hydra 2",
-			"faction":"Empire",
-			"class":"Frigate",
-			"role":"Engineer",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Dragonfly",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 9
 		},
 		{
-			"name":"Scout",
-			"faction":"Empire",
-			"class":"Interceptor",
-			"role":"Recon",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Sarissa GS",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 10
 		},
 		{
-			"name":"Kalah",
-			"faction":"Empire",
-			"class":"Fighter",
-			"role":"Gunship",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Sawtooth",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 11
 		},
 		{
-			"name":"Trooper",
-			"faction":"Empire",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Dart",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Purple(Crafted)",
+			"rank": 11
 		},
 		{
-			"name":"Lynx",
-			"faction":"Federation",
-			"class":"Fighter",
-			"role":"Tackler",
-			"color":"Silver(Credits)",
-			"rank":1
+			"name": "Flamberge",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 12
 		},
 		{
-			"name":"Raptor",
-			"faction":"Federation",
-			"class":"Frigate",
-			"role":"Engineer",
-			"color":"Silver(Credits)",
-			"rank":2
+			"name": "Excalibur",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Gold(Premium)",
+			"rank": 15
 		},
 		{
-			"name":"Swift",
-			"faction":"Federation",
-			"class":"Interceptor",
-			"role":"Covert Operations",
-			"color":"Silver(Credits)",
-			"rank":3
+			"name": "Razor",
+			"faction": "Jericho",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Gold(Premium)",
+			"rank": 15
 		},
 		{
-			"name":"Lynx-M",
-			"faction":"Federation",
-			"class":"Fighter",
-			"role":"Tackler",
-			"color":"Silver(Credits)",
-			"rank":3
+			"name": "Protazan",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 16
 		},
 		{
-			"name":"Raptor-M",
-			"faction":"Federation",
-			"class":"Frigate",
-			"role":"Engineer",
-			"color":"Silver(Credits)",
-			"rank":3
+			"name": "Carolingian",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 17
 		},
 		{
-			"name":"Raptor-M-2",
-			"faction":"Federation",
-			"class":"Frigate",
-			"role":"Engineer",
-			"color":"Gold(Premium)",
-			"rank":3
+			"name": "Custodian",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Purple(Crafted)",
+			"rank": 17
 		},
 		{
-			"name":"Tiger-M15A3",
-			"faction":"Federation",
-			"class":"Fighter",
-			"role":"Tackler",
-			"color":"Gold(Premium)",
-			"rank":3
+			"name": "Confessor",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Purple(Crafted)",
+			"rank": 16
 		},
 		{
-			"name":"Pterosaur",
-			"faction":"Federation",
-			"class":"Interceptor",
-			"role":"Covert Operations",
-			"color":"Gold(Premium)",
-			"rank":3
+			"name": "Ronin",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Purple(Crafted)",
+			"rank": 15
 		},
 		{
-			"name":"Swift-M",
-			"faction":"Federation",
-			"class":"Interceptor",
-			"role":"Covert Operations",
-			"color":"Silver(Credits)",
-			"rank":4
+			"name": "Inquisitor S",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 15
 		},
 		{
-			"name":"Lynx Mk II",
-			"faction":"Federation",
-			"class":"Fighter",
-			"role":"Gunship",
-			"color":"Silver(Credits)",
-			"rank":4
+			"name": "Inquisitor",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 13
 		},
 		{
-			"name":"Raptor Mk II",
-			"faction":"Federation",
-			"class":"Frigate",
-			"role":"Engineer",
-			"color":"Silver(Credits)",
-			"rank":4
+			"name": "Tormentor S",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 12
 		},
 		{
-			"name":"Fox",
-			"faction":"Federation",
-			"class":"Fighter",
-			"role":"Tackler",
-			"color":"Silver(Credits)",
-			"rank":5
+			"name": "Tormentor",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 10
 		},
 		{
-			"name":"Alligator-C",
-			"faction":"Federation",
-			"class":"Frigate",
-			"role":"Guard",
-			"color":"Silver(Credits)",
-			"rank":5
+			"name": "Crus S",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 9
 		},
 		{
-			"name":"Kite-E",
-			"faction":"Federation",
-			"class":"Interceptor",
-			"role":"Covert Operations",
-			"color":"Gold(Premium)",
-			"rank":5
+			"name": "Crusader",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 8
 		},
 		{
-			"name":"Hawk",
-			"faction":"Federation",
-			"class":"Interceptor",
-			"role":"Recon",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Templar S",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Silver(Credits)",
+			"rank": 7
 		},
 		{
-			"name":"Swift Mk 3",
-			"faction":"Federation",
-			"class":"Interceptor",
-			"role":"Covert Operations",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Templar AE",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 7
 		},
 		{
-			"name":"Fox-M",
-			"faction":"Federation",
-			"class":"Fighter",
-			"role":"Tackler",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Ira Deus",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 9
 		},
 		{
-			"name":"Alligator-M",
-			"faction":"Federation",
-			"class":"Frigate",
-			"role":"Engineer",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Tormentor AE",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 11
 		},
 		{
-			"name":"Honor",
-			"faction":"Federation",
-			"class":"Frigate",
-			"role":"Engineer",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Inquisitor AE",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Silver(Credits)",
+			"rank": 14
 		},
 		{
-			"name":"Rhi-no",
-			"faction":"Federation",
-			"class":"Fighter",
-			"role":"Tackler",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Archon",
+			"faction": "Jericho",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 8
 		},
 		{
-			"name":"Blade of Aressa",
-			"faction":"Federation",
-			"class":"Interceptor",
-			"role":"Covert Operations",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Sibyl",
+			"faction": "Jericho",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 11
 		},
 		{
-			"name":"Superkite",
-			"faction":"Federation",
-			"class":"Interceptor",
-			"role":"Covert Operations",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Tyrant",
+			"faction": "Jericho",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 14
 		},
 		{
-			"name":"Axe",
-			"faction":"Jericho",
-			"class":"Fighter",
-			"role":"Command",
-			"color":"Silver(Credits)",
-			"rank":1
+			"name": "Relic",
+			"faction": "Jericho",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 17
 		},
 		{
-			"name":"Zealot",
-			"faction":"Jericho",
-			"class":"Frigate",
-			"role":"Guard",
-			"color":"Silver(Credits)",
-			"rank":2
+			"name": "Executor",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 17
 		},
 		{
-			"name":"Axe-X-S",
-			"faction":"Jericho",
-			"class":"Fighter",
-			"role":"Command",
-			"color":"Silver(Credits)",
-			"rank":2
+			"name": "Blood Tormentor",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 16
 		},
 		{
-			"name":"Dagger",
-			"faction":"Jericho",
-			"class":"Interceptor",
-			"role":"ECM",
-			"color":"Silver(Credits)",
-			"rank":3
+			"name": "Patriarch",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 15
 		},
 		{
-			"name":"Axe-X",
-			"faction":"Jericho",
-			"class":"Fighter",
-			"role":"Command",
-			"color":"Silver(Credits)",
-			"rank":3
+			"name": "Palom",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 13
 		},
 		{
-			"name":"Exorcist",
-			"faction":"Jericho",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Purple(Crafted)",
-			"rank":3
+			"name": "Mauler",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 13
 		},
 		{
-			"name":"Black Hort",
-			"faction":"Jericho",
-			"class":"Fighter",
-			"role":"Command",
-			"color":"Gold(Premium)",
-			"rank":3
+			"name": "Scimitar",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 12
 		},
 		{
-			"name":"Black Death",
-			"faction":"Jericho",
-			"class":"Interceptor",
-			"role":"ECM",
-			"color":"Gold(Premium)",
-			"rank":3
+			"name": "Carnifex GS",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 10
 		},
 		{
-			"name":"Palom Mk II",
-			"faction":"Jericho",
-			"class":"Frigate",
-			"role":"Guard",
-			"color":"Purple(Crafted)",
-			"rank":3
+			"name": "Crus A",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 9
 		},
 		{
-			"name":"Dagger AE",
-			"faction":"Jericho",
-			"class":"Interceptor",
-			"role":"ECM",
-			"color":"Silver(Credits)",
-			"rank":4
+			"name": "Langsax",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Gold(Premium)",
+			"rank": 8
 		},
 		{
-			"name":"Machete",
-			"faction":"Jericho",
-			"class":"Fighter",
-			"role":"Tackler",
-			"color":"Silver(Credits)",
-			"rank":4
+			"name": "Vindicator",
+			"faction": "Jericho",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 8
 		},
 		{
-			"name":"Zealot AE",
-			"faction":"Jericho",
-			"class":"Frigate",
-			"role":"Guard",
-			"color":"Silver(Credits)",
-			"rank":4
+			"name": "Ze'Ta",
+			"faction": "Ellydium",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Green(Alien)",
+			"rank": 15
 		},
 		{
-			"name":"Dagger V",
-			"faction":"Jericho",
-			"class":"Interceptor",
-			"role":"Covert Operations",
-			"color":"Silver(Credits)",
-			"rank":5
+			"name": "Tai'Kin",
+			"faction": "Ellydium",
+			"class": "Interceptor",
+			"role": "Recon",
+			"color": "Green(Alien)",
+			"rank": 15
 		},
 		{
-			"name":"Machete AE",
-			"faction":"Jericho",
-			"class":"Fighter",
-			"role":"Command",
-			"color":"Silver(Credits)",
-			"rank":5
+			"name": "Tau'Kita",
+			"faction": "Ellydium",
+			"class": "Interceptor",
+			"role": "Covert Operations",
+			"color": "Green(Alien)",
+			"rank": 15
 		},
 		{
-			"name":"Neuron Zealot",
-			"faction":"Jericho",
-			"class":"Frigate",
-			"role":"Guard",
-			"color":"Silver(Credits)",
-			"rank":5
+			"name": "Thar'Ga",
+			"faction": "Ellydium",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Green(Alien)",
+			"rank": 15
 		},
 		{
-			"name":"Stiletto",
-			"faction":"Jericho",
-			"class":"Interceptor",
-			"role":"ECM",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Yith'Mor",
+			"faction": "Ellydium",
+			"class": "Fighter",
+			"role": "Command",
+			"color": "Green(Alien)",
+			"rank": 15
 		},
 		{
-			"name":"Machete S",
-			"faction":"Jericho",
-			"class":"Fighter",
-			"role":"Command",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Waz'Got",
+			"faction": "Ellydium",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Green(Alien)",
+			"rank": 15
 		},
 		{
-			"name":"Templar",
-			"faction":"Jericho",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Silver(Credits)",
-			"rank":6
+			"name": "Drag'Thir",
+			"faction": "Ellydium",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Green(Alien)",
+			"rank": 15
 		},
 		{
-			"name":"Priest Bartle",
-			"faction":"Jericho",
-			"class":"Frigate",
-			"role":"Long Range",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Endeavour",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Purple(Crafted)",
+			"rank": 10
 		},
 		{
-			"name":"Crus Q",
-			"faction":"Jericho",
-			"class":"Frigate",
-			"role":"Guard",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Object NY18",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Purple(Crafted)",
+			"rank": 15
 		},
 		{
-			"name":"Neuron",
-			"faction":"Jericho",
-			"class":"Fighter",
-			"role":"Command",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Spiral",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Purple(Crafted)",
+			"rank": 10
 		},
 		{
-			"name":"Talon",
-			"faction":"Jericho",
-			"class":"Interceptor",
-			"role":"ECM",
-			"color":"Gold(Premium)",
-			"rank":6
+			"name": "Papa Crab",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Gold(Premium)",
+			"rank": 13
+		},
+		{
+			"name": "Black Ghost",
+			"faction": "Unique",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Gold(Premium)",
+			"rank": 16
+		},
+		{
+			"name": "Naglfar",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Guard",
+			"color": "Gold(Premium)",
+			"rank": 16
+		},
+		{
+			"name": "Tornado",
+			"faction": "Unique",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Helicon",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Helios",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Long Range",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Salamander",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Hellas",
+			"faction": "Unique",
+			"class": "Frigate",
+			"role": "Engineer",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Bark-2",
+			"faction": "Unique",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Chaos",
+			"faction": "Unique",
+			"class": "Fighter",
+			"role": "Gunship",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Amber",
+			"faction": "Unique",
+			"class": "Fighter",
+			"role": "Tackler",
+			"color": "Purple(Crafted)",
+			"rank": 16
+		},
+		{
+			"name": "Saturn",
+			"faction": "Unique",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 15
+		},
+		{
+			"name": "Bashe",
+			"faction": "Unique",
+			"class": "Destroyer",
+			"role": "Suppressor",
+			"color": "Purple(Crafted)",
+			"rank": 17
 		}
 	]
 }
