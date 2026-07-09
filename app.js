@@ -16,6 +16,7 @@
    ========================================================================= */
 
 const DATA_URL = 'ships.json';
+const PACIFIC_TZ = 'America/Los_Angeles';
 
 let SHIPS = [];
 let COLOR_ORDER = [];
@@ -107,7 +108,6 @@ async function init(){
    Daily ship selection — deterministic per calendar day (local time),
    same for everyone on a given day, like Wordle.
    --------------------------------------------------------------------- */
-const PACIFIC_TZ = 'America/Los_Angeles';
    
 function pacificDateString(){
   return new Intl.DateTimeFormat('en-CA', {
