@@ -107,11 +107,18 @@ async function init(){
    Daily ship selection — deterministic per calendar day (local time),
    same for everyone on a given day, like Wordle.
    --------------------------------------------------------------------- */
+function pacificDateString(){
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: PACIFIC_TZ,
+    year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(new Date()); // en-CA formats as YYYY-MM-DD
+}
+
 function dayIndex(shipCount){
-  const now = new Date();
-  const start = new Date(now.getFullYear(), 0, 1);
-  const diff = Math.floor((now - start) / 86400000);
-  const seed = (now.getFullYear() * 1000 + diff) * 2654435761 % 2147483647;
+  const [year, month, day] = pacificDateString().split('-').map(Number);
+  // Days since a fixed epoch, purely as an incrementing counter.
+  const diff = Math.floor(Date.UTC(year, month - 1, day) / 86400000);
+  const seed = (year * 1000 + diff) * 2654435761 % 2147483647;
   return Math.abs(seed) % shipCount;
 }
 
