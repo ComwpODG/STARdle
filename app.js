@@ -1,5 +1,5 @@
 /* =========================================================================
-   SC/ORDLE — a Wordle-style daily guessing game for Star Conflict ships
+   STARDLE — a Wordle-style daily guessing game for Star Conflict ships
    =========================================================================
    All ship data lives in ships.json (same folder). This file only contains
    game logic — add ships/factions/etc. by editing ships.json, nothing here
@@ -79,7 +79,7 @@ async function init(){
 
   SECRET = SHIPS[dayIndex(SHIPS.length)];
 
-  const STORAGE_KEY = `scordle:${new Date().toISOString().slice(0,10)}`;
+  const STORAGE_KEY = `stardle:${pacificDateString()}`;
   state = loadState(STORAGE_KEY);
   state._storageKey = STORAGE_KEY;
 
@@ -107,6 +107,8 @@ async function init(){
    Daily ship selection — deterministic per calendar day (local time),
    same for everyone on a given day, like Wordle.
    --------------------------------------------------------------------- */
+const PACIFIC_TZ = 'America/Los_Angeles';
+   
 function pacificDateString(){
   return new Intl.DateTimeFormat('en-CA', {
     timeZone: PACIFIC_TZ,
